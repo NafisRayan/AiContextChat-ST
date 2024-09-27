@@ -2,7 +2,7 @@ streamlit
 pandas
 beautifulsoup4
 google-generativeai
-py-pdf2
+PyPDF2
 docx2txt
 joblib
 requests
