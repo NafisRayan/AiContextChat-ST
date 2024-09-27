@@ -2,7 +2,7 @@
 
 ## Overview
 
-GeminiChat-ST is a chat application built using Streamlit and various natural language processing tools. It provides a platform for users to engage in conversations while leveraging AI capabilities for enhanced interaction.
+AiContextChat-ST is a chat application built using Streamlit and various natural language processing tools. It provides a platform for users to engage in conversations while leveraging AI capabilities for enhanced interaction.
 
 ## Features
 
@@ -24,7 +24,7 @@ GeminiChat-ST is a chat application built using Streamlit and various natural la
 ## Setup Instructions
 
 1. Clone the repository:
-git clone https://github.com/NafisRayan/GeminiChat-ST.git
+git clone https://github.com/NafisRayan/AiContextChat-ST.git
 
 
 2. Install dependencies:
