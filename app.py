@@ -182,7 +182,7 @@ with st.sidebar:
         # st.write(paragraph)
 
 
-    st.write('# Scrap Link')
+    st.write('# File Upload')
     
     # st.write("Upload a PDF, TXT, or DOCX file.")
     uploaded_file = st.file_uploader("Upload a PDF, TXT, or DOCX file.")
