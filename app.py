@@ -206,6 +206,29 @@ with st.sidebar:
             else:
                 st.error("Unsupported file type.")
 
+    
+    sData = st.checkbox('Show scrapped data')
+    if sData:
+        st.write(url_input)
+
+        st.download_button(
+        label="Download Scrapped Data",
+        data=url_input,
+        file_name=f"scraped_data_{time.time()}.txt",
+        mime="text/plain"
+    )
+
+
+    fData = st.checkbox('Show uploaded file')
+    if fData:
+        st.write(uploaded_file)
+
+        st.download_button(
+        label="Download Uploaded File",
+        data=uploaded_file,
+        file_name=f"uploaded_file_{time.time()}.txt",
+        mime="text/plain"
+    )
 
     st.write('# Chat History')
     if st.session_state.get('chat_id') is None:
