@@ -4,6 +4,12 @@
 
 AiContextChat-ST is a chat application built using Streamlit and various natural language processing tools. It provides a platform for users to engage in conversations while leveraging AI capabilities for enhanced interaction.
 
+## Screenshots  
+
+Here are some screenshots of the app showcasing its key features and design:  
+
+<img src="AIchat.png" alt="Home Screen" width="1000" />  
+
 ## Features
 
 - Real-time chat functionality
